@@ -1,0 +1,99 @@
+:root{
+    --mainColor: #00008B;
+}
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+h1 {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 50px;
+    color: var(--mainColor);
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.buttons_div {
+    display: flex;
+    justify-content: space-between;
+    width: 491.68px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.all_btn, .completed_btn, .uncompleted_btn{
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 3px solid #00008B;
+    font-size: 16px;
+    background-color: #E6E6FA;
+}
+
+.todo_input {
+    width: 400px;
+    padding: 10px;
+    color: var(--mainColor);
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 22px;
+    border: 2px solid var(--mainColor);
+    background-color: transparent;
+}
+
+.submit_btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    font-size: 22px;
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+    background-color: #E6E6FA;
+    cursor: pointer;
+}
+
+.todo_list {
+    width: 491.68px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--mainColor);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+p {
+    font-size: 22px;
+    color: var(--mainColor);
+    cursor: pointer;
+    user-select: none;
+}
+
+.delete_btn {
+    font-size: 22px;
+    border: none;
+    color: var(--mainColor);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.checked {
+    text-decoration: line-through brown 2px;
+}
